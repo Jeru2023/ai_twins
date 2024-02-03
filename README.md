@@ -191,9 +191,9 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
+* [Wav2Lip-GFPGAN](https://github.com/ajay-sainy/Wav2Lip-GFPGAN)
+* [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -201,7 +201,3 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-- [GPT-SoVITS]: https://github.com/RVC-Boss/GPT-SoVITS
-- [Wav2Lip-GFPGAN]: https://github.com/ajay-sainy/Wav2Lip-GFPGAN
-- [Best-README-Template]: https://github.com/othneildrew/Best-README-Template
-
