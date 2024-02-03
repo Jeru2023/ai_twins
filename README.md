@@ -31,10 +31,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/Jeru2023/">
-    <img src="images/logo.jpg" alt="Logo" width="80" height="80">
+    <img src="images/logo.jpeg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">AI Cloner</h3>
+<h3 align="center">AI Twins</h3>
 
   <p align="center">
     project_description
