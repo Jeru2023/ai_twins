@@ -205,7 +205,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/Jeru2023/ai_twins/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.comJeru2023/ai_twins/stargazers
+[stars-url]: https://github.com/Jeru2023/ai_twins/stargazers
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
 [issues-url]: https://github.com/Jeru2023/ai_twins/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
