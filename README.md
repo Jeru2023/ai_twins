@@ -149,10 +149,10 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Toolkit - ASR
+- [ ] Toolkit - Audio Slicer
+- [ ] Toolkit - Vocal Separation
+- [ ] Toolkit - Zero-shot TTS
 
 See the [open issues](https://github.com/Jeru2023/ai_twins/issues) for a full list of proposed features (and known issues).
 
@@ -190,7 +190,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Your Name - [@Jeru_AGI](https://twitter.com/Jeru_AGI) - jeru.token@gmail.com
 
 Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023/ai_twins)
 
