@@ -34,29 +34,17 @@
   </a>
 
 <h3 align="center">AI Twins</h3>
-
-<p align="left">
-This project aims to achieve two goals:
-
-Modularization of functionalities from state-of-the-art projects in Automatic Speech Recognition (ASR), Text-to-Speech (TTS), and Wav2Lip, allowing independent usage of each module.
-
-The project focuses on extracting the functionalities of leading projects in the field of ASR, TTS, and Wav2Lip and making them available as individual modules. By doing so, developers can easily integrate these modules into their applications as standalone components, without the need for extensive modifications or dependencies on the entire project.
-
-Integration of multiple projects into a comprehensive end-to-end solution.
-
-This project aims to combine the functionalities of various projects into a unified and seamless solution. By integrating ASR, TTS, and Wav2Lip capabilities, it provides a comprehensive pipeline that covers the entire process of converting text to synthesized speech with lip movement synchronization. This end-to-end solution simplifies the overall workflow and allows users to achieve high-quality results without the hassle of manually coordinating multiple projects.
-
-By offering both independent modules and an integrated solution, this project provides flexibility and convenience for developers and researchers working in the field of digital humans. It enables them to leverage the best features from various projects and seamlessly integrate them into their own applications or research work.
-</p>
+<p align="center">
+Perfect AI Replication
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Jeru2023/ai_twins"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/Jeru2023/ai_twins">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/Jeru2023/ai_twins/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/Jeru2023/ai_twins/issues">Request Feature</a>
   </p>
 </div>
 
@@ -95,7 +83,19 @@ By offering both independent modules and an integrated solution, this project pr
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+This project aims to achieve two goals:
+
+Modularization of functionalities from state-of-the-art projects in Automatic Speech Recognition (ASR), Text-to-Speech (TTS), and Wav2Lip, allowing independent usage of each module.
+
+The project focuses on extracting the functionalities of leading projects in the field of ASR, TTS, and Wav2Lip and making them available as individual modules. By doing so, developers can easily integrate these modules into their applications as standalone components, without the need for extensive modifications or dependencies on the entire project.
+
+Integration of multiple projects into a comprehensive end-to-end solution.
+
+This project aims to combine the functionalities of various projects into a unified and seamless solution. By integrating ASR, TTS, and Wav2Lip capabilities, it provides a comprehensive pipeline that covers the entire process of converting text to synthesized speech with lip movement synchronization. This end-to-end solution simplifies the overall workflow and allows users to achieve high-quality results without the hassle of manually coordinating multiple projects.
+
+By offering both independent modules and an integrated solution, this project provides flexibility and convenience for developers and researchers working in the field of digital humans. It enables them to leverage the best features from various projects and seamlessly integrate them into their own applications or research work.
+
+<!--Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Jeru2023`, `ai_twins`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +120,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Jeru2023/ai_twins.git
    ```
 3. Install NPM packages
    ```sh
@@ -154,7 +154,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [ ] Feature 3
     - [ ] Nested Feature
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/Jeru2023/ai_twins/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +192,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023/ai_twins)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
