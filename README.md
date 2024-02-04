@@ -35,8 +35,19 @@
 
 <h3 align="center">AI Twins</h3>
 
-  <p align="center">
-    project_description
+<p align="left">
+This project aims to achieve two goals:
+
+Modularization of functionalities from state-of-the-art projects in Automatic Speech Recognition (ASR), Text-to-Speech (TTS), and Wav2Lip, allowing independent usage of each module.
+
+The project focuses on extracting the functionalities of leading projects in the field of ASR, TTS, and Wav2Lip and making them available as individual modules. By doing so, developers can easily integrate these modules into their applications as standalone components, without the need for extensive modifications or dependencies on the entire project.
+
+Integration of multiple projects into a comprehensive end-to-end solution.
+
+This project aims to combine the functionalities of various projects into a unified and seamless solution. By integrating ASR, TTS, and Wav2Lip capabilities, it provides a comprehensive pipeline that covers the entire process of converting text to synthesized speech with lip movement synchronization. This end-to-end solution simplifies the overall workflow and allows users to achieve high-quality results without the hassle of manually coordinating multiple projects.
+
+By offering both independent modules and an integrated solution, this project provides flexibility and convenience for developers and researchers working in the field of digital humans. It enables them to leverage the best features from various projects and seamlessly integrate them into their own applications or research work.
+</p>
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
