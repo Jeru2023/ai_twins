@@ -150,7 +150,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [ ] Toolkit - ASR
-- [ ] Toolkit - Audio Slicer
+- [*] Toolkit - Audio Slicer
 - [ ] Toolkit - Vocal Separation
 - [ ] Toolkit - Zero-shot TTS
 
