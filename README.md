@@ -149,7 +149,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Toolkit - ASR
+- [*] Toolkit - ASR
 - [*] Toolkit - Audio Slicer
 - [ ] Toolkit - Vocal Separation
 - [ ] Toolkit - Zero-shot TTS
@@ -200,7 +200,7 @@ Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
+* [FunASR](https://github.com/alibaba-damo-academy/FunASR)
 * [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)
 * [Wav2Lip-GFPGAN](https://github.com/ajay-sainy/Wav2Lip-GFPGAN)
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
