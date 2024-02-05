@@ -4,7 +4,7 @@ from module.slicer import Slicer
 import os
 
 
-def slice_audio(in_path, out_folder, out_file_prefix, threshold=-40, min_length=5000, min_interval=300, hop_size=10, max_sil_kept=500):
+def slice_audio(in_path, out_folder, out_file_prefix, threshold=-35, min_length=5000, min_interval=300, hop_size=10, max_sil_kept=500):
     """
     :param in_path:
     :param out_folder:
