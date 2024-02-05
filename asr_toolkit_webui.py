@@ -27,6 +27,13 @@ def audio_transcription(file_path):
     return text
 
 
+def get_default_slice_outputs():
+    audio_list = []
+    for i in range(5):
+        audio_list.append(gr.Audio(label="audio trunk " + str(i + 1)))
+    return audio_list
+
+
 def slice_audio(file_path, threshold, min_length, min_interval):
     if not file_path:
         return "Please upload a .wav audio file"
@@ -72,7 +79,7 @@ def build_slice_demo():
             submit_btn_2 = gr.Button("Submit")
 
         with gr.Column():
-            outputs = [gr.Audio(), gr.Audio(), gr.Audio(), gr.Audio(), gr.Audio()]
+            outputs = get_default_slice_outputs()
 
     submit_btn_2.click(fn=slice_audio, inputs=[f2, threshold, min_length, min_interval], outputs=outputs)
 

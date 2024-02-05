@@ -96,15 +96,18 @@ This project aims to combine the functionalities of various projects into a unif
 By offering both independent modules and an integrated solution, this project provides flexibility and convenience for developers and researchers working in the field of digital humans. It enables them to leverage the best features from various projects and seamlessly integrate them into their own applications or research work.
 
 ### Toolkit Demo
+
 #### ASR Toolkit
+```sh
+  python asr_toolkit_webui.py
+  ```
 ##### ASR
-<a href="https://github.com/Jeru2023/">
-    <img src="images/asr_toolkit_asr.png" alt="demo">
-</a>
+<img src="images/asr_toolkit_asr.png" alt="demo">
+
 ##### Audio Slicer
-<a href="https://github.com/Jeru2023/">
-    <img src="images/asr_toolkit_slice.png" alt="demo">
-</a>
+<img src="images/asr_toolkit_slice.png" alt="demo">
+
+
 ### TTS Toolkit
 <!--Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Jeru2023`, `ai_twins`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
 
