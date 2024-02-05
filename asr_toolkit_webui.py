@@ -12,9 +12,11 @@ upload_folder = os.path.join(root_path, "output/upload/")
 slice_folder = os.path.join(root_path, "output/slice_trunks/")
 
 upload_file_path = ''
+g_audio_list = []
 
 title = "Toolkit Demo"
 asr_description = "To transcribe .wav to text with FunASR model, both Mandarin and English supported."
+slice_description = "Maximum first 5 slice trunks listed in this demo page."
 tips_text = "Try microphone input if microphone is available on your device."
 
 
@@ -25,18 +27,18 @@ def audio_transcription(file_path):
     return text
 
 
-def slice_audio(file_path):
+def slice_audio(file_path, threshold, min_length, min_interval):
     if not file_path:
         return "Please upload a .wav audio file"
     output_folder = utils.create_unique_folder(slice_folder)
-    slice_tool.slice_audio(file_path, output_folder, 'trunk_')
-    print(output_folder)
+    slice_tool.slice_audio(file_path, output_folder, 'trunk', int(threshold), int(min_length), int(min_interval))
+
     trunks = utils.get_folder_file_list(os.path.normpath(output_folder))
 
-    audio_list = []
     for trunk in trunks:
-        audio_list.append(gr.Audio(value=trunk))
-    return audio_list
+        g_audio_list.append(gr.Audio(value=trunk))
+
+    return g_audio_list
 
 
 def build_asr_demo():
@@ -57,25 +59,26 @@ def build_asr_demo():
 
 
 def build_slice_demo():
-
     with gr.Row():
-        gr.Markdown(asr_description)
+        gr.Markdown(slice_description)
     with gr.Row():
         with gr.Column():
-            gr.Text(tips_text, label='Tips')
             f2 = gr.Audio(type="filepath", label="Input Audio")
 
             gr.Markdown(' ')
+            threshold = gr.Textbox(label="The dB threshold for silence detection", value="-35")
+            min_length = gr.Textbox(label="The minimum milliseconds required for each sliced audio clip", value="5000")
+            min_interval = gr.Textbox(label="The minimum milliseconds for a silence part to be sliced", value="300")
             submit_btn_2 = gr.Button("Submit")
 
         with gr.Column():
-            output_placeholder = gr.TextArea(label="Slice Output")
-            output = output_placeholder
+            outputs = [gr.Audio(), gr.Audio(), gr.Audio(), gr.Audio(), gr.Audio()]
 
-    submit_btn_2.click(fn=slice_audio, inputs=[f2], outputs=output_placeholder)
+    submit_btn_2.click(fn=slice_audio, inputs=[f2, threshold, min_length, min_interval], outputs=outputs)
 
 
 with gr.Blocks() as demo:
+
     with gr.Row():
         gr.Markdown(f'<H1>{title}</H1>')
     with gr.Tab("ASR Demo"):
