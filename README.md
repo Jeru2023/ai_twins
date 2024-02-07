@@ -118,31 +118,28 @@ By offering both independent modules and an integrated solution, this project pr
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+This project uses [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) as submodule for voice clone, please follow the installation guideline from GPT-SoVITS to setup environment.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Create independent Python Environment.
+   ```sh    
+    conda create -n ai_twins python=3.9
+    conda activate ai_twins
+   ```
 2. Clone the repo
    ```sh
    git clone https://github.com/Jeru2023/ai_twins.git
    ```
-3. Install NPM packages
+3. Install packages
    ```sh
-   npm install
+   install -r requirements.txt
+   install -r GPTSoVITS/requirements.txt
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. Overwrite config.py under GPTSoVITS
+   ```sh
+   cd ai_twins
+   mv config-GPTSoVITS.py GPTSoVITS/config.py
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -163,11 +160,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] ASR Demo WebUI
-  - [*] Toolkit - ASR
-  - [*] Toolkit - Audio Slicer
-  - [ ] Toolkit - Vocal Separation
+- [*] Toolkit - ASR
+- [*] Toolkit - Audio Slicer
+- [ ] Toolkit - Vocal Separation
 - [ ] Toolkit - Zero-shot TTS
+- [ ] ASR Toolkit Demo WebUI
+- [ ] TTS Toolkit Demo WebUI
 
 See the [open issues](https://github.com/Jeru2023/ai_twins/issues) for a full list of proposed features (and known issues).
 
