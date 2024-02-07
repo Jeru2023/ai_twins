@@ -2,3 +2,6 @@ librosa
 soundfile
 funasr
 gradio
+pytorch_lightning
+g2p_en
+cn2an
