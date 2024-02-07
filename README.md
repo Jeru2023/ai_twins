@@ -132,6 +132,8 @@ git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
    cd ai_twins
    mv config-GPTSoVITS.py GPTSoVITS/config.py
    ```
+5. To run test or WebUI Demo, create three empty folders in output:
+   slice_trunks, tts, upload
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
