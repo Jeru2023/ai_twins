@@ -14,7 +14,7 @@ slice_folder = os.path.join(root_path, "output/slice_trunks/")
 upload_file_path = ''
 g_audio_list = []
 
-title = "Toolkit Demo"
+title = "ASR Toolkit Demo"
 asr_description = "To transcribe .wav to text with FunASR model, both Mandarin and English supported."
 slice_description = "Maximum first 5 slice trunks listed in this demo page."
 tips_text = "Try microphone input if microphone is available on your device."

@@ -67,3 +67,10 @@ class PersonaEnum(Enum):
 
     def get_name(self):
         return self.value["name"]
+
+    @staticmethod
+    def get_name_list():
+        name_list = []
+        for enum in list(PersonaEnum):
+            name_list.append(enum.value["name"])
+        return name_list

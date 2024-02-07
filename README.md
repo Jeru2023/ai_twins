@@ -196,9 +196,8 @@ slice_tool.slice_audio(in_path, out_folder, out_file_prefix, threshold=-40)
 ##### Audio Slicer
 <img src="images/asr_toolkit_slice.png" alt="demo">
 
-
 #### TTS Toolkit Demo
-
+<img src="images/tts_toolkit_zs.png" alt="demo">
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
