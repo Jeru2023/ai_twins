@@ -9,8 +9,10 @@ root_path = utils.get_root_path()
 
 persona_name = PersonaEnum.NORMAL_FEMALE.get_name()
 text = '今天天气不错呀，我真的太开心了。'
+uuid = utils.generate_unique_id(text)
 
+# en for english
 text_language = 'zh'
-output_path = os.path.join(root_path, 'output', 'tts', 'my_file.wav')
+output_path = os.path.join(root_path, 'output', 'tts', f'{uuid}.wav')
 
 tts_model.inference(persona_name, text, text_language, output_path)

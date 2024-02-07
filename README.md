@@ -95,20 +95,6 @@ This project aims to combine the functionalities of various projects into a unif
 
 By offering both independent modules and an integrated solution, this project provides flexibility and convenience for developers and researchers working in the field of digital humans. It enables them to leverage the best features from various projects and seamlessly integrate them into their own applications or research work.
 
-### Toolkit Demo
-
-#### ASR Toolkit
-```sh
-  python asr_toolkit_webui.py
-  ```
-##### ASR
-<img src="images/asr_toolkit_asr.png" alt="demo">
-
-##### Audio Slicer
-<img src="images/asr_toolkit_slice.png" alt="demo">
-
-
-### TTS Toolkit
 <!--Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `Jeru2023`, `ai_twins`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`-->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -148,6 +134,65 @@ This project uses [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) as submod
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+
+### API call
+Please refer to the test files in test folder.
+#### TTS
+```python
+from infer.tts_model import TTSModel
+import utils
+from infer.persona_enum import PersonaEnum
+import os
+
+
+tts_model = TTSModel()
+root_path = utils.get_root_path()
+
+persona_name = PersonaEnum.NORMAL_FEMALE.get_name()
+text = '今天天气不错呀，我真的太开心了。'
+uuid = utils.generate_unique_id(text)
+
+# en for english
+text_language = 'zh'
+output_path = os.path.join(root_path, 'output', 'tts', f'{uuid}.wav')
+
+tts_model.inference(persona_name, text, text_language, output_path)
+```
+#### ASR
+```python
+import utils
+import os
+from infer.asr_model import ASRModel
+
+asr_model = ASRModel()
+
+audio_sample = os.path.join(utils.get_root_path(), 'data', 'audio', 'sample_short.wav')
+output = asr_model.inference(audio_sample)
+print(output)
+```
+#### Audio Slice
+```python
+import utils
+from tools import slice_tool
+
+in_path = utils.get_root_path() + '/data/audio/sample_long.wav'
+out_folder = utils.get_root_path() + '/output/slice_trunks'
+out_file_prefix = 'sample'
+slice_tool.slice_audio(in_path, out_folder, out_file_prefix, threshold=-40)
+```
+### Web Demo
+#### ASR Toolkit Demo
+```sh
+  python asr_toolkit_webui.py
+  ```
+##### ASR
+<img src="images/asr_toolkit_asr.png" alt="demo">
+
+##### Audio Slicer
+<img src="images/asr_toolkit_slice.png" alt="demo">
+
+
+#### TTS Toolkit Demo
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 

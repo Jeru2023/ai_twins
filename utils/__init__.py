@@ -1,4 +1,5 @@
 from .file_util import *
+from .text_util import *
 
 import os
 import glob
