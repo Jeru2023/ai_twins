@@ -106,6 +106,10 @@ By offering both independent modules and an integrated solution, this project pr
 
 This project uses [GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS) as submodule for voice clone, please follow the installation guideline from GPT-SoVITS to setup environment.
 
+Please mind I've rename GPT-SoVITS by removing dash, as it's invalid character as pacakge name.
+```sh  
+git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
+```
 ### Installation
 
 1. Create independent Python Environment.
