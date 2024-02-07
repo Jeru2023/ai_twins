@@ -210,8 +210,8 @@ slice_tool.slice_audio(in_path, out_folder, out_file_prefix, threshold=-40)
 - [*] Toolkit - Audio Slicer
 - [ ] Toolkit - Vocal Separation
 - [*] Toolkit - Zero-shot TTS
-- [ ] ASR Toolkit Demo WebUI
-- [ ] TTS Toolkit Demo WebUI
+- [*] ASR Toolkit Demo WebUI
+- [*] TTS Toolkit Demo WebUI
 
 See the [open issues](https://github.com/Jeru2023/ai_twins/issues) for a full list of proposed features (and known issues).
 
