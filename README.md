@@ -36,6 +36,7 @@
 <h3 align="center">AI Twins</h3>
 <p align="center">
 Perfect AI Replication
+<!--
     <br />
     <a href="https://github.com/Jeru2023/ai_twins"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,7 +45,7 @@ Perfect AI Replication
     ·
     <a href="https://github.com/Jeru2023/ai_twins/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Jeru2023/ai_twins/issues">Request Feature</a>
+    <a href="https://github.com/Jeru2023/ai_twins/issues">Request Feature</a>-->
   </p>
 </div>
 
@@ -198,9 +199,6 @@ slice_tool.slice_audio(in_path, out_folder, out_file_prefix, threshold=-40)
 
 #### TTS Toolkit Demo
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -212,7 +210,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 - [*] Toolkit - ASR
 - [*] Toolkit - Audio Slicer
 - [ ] Toolkit - Vocal Separation
-- [ ] Toolkit - Zero-shot TTS
+- [*] Toolkit - Zero-shot TTS
 - [ ] ASR Toolkit Demo WebUI
 - [ ] TTS Toolkit Demo WebUI
 
