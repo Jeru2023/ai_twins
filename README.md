@@ -115,6 +115,7 @@ git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
 1. Install ffmpeg
 
 2. Pretrain Models
+   
 Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj1995/GPT-SoVITS/tree/main) and place them in GPTSoVITS/GPT_SoVITS/pretrained_models
 
 ### Installation
@@ -148,7 +149,7 @@ Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj199
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### API call
+### Function call
 Please refer to the test files in test folder.
 #### TTS
 ```python
@@ -261,7 +262,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Jeru_AGI](https://twitter.com/Jeru_AGI) - jeru.token@gmail.com
+Jeru Liu - [@Jeru_AGI](https://twitter.com/Jeru_AGI) - jeru.token@gmail.com
 
 Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023/ai_twins)
 
@@ -283,13 +284,13 @@ Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Jeru2023/ai_twins.svg?style=for-the-badge
 [contributors-url]: https://github.com/Jeru2023/ai_twins/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/Jeru2023/ai_twins.svg?style=for-the-badge
 [forks-url]: https://github.com/Jeru2023/ai_twins/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/Jeru2023/ai_twins.svg?style=for-the-badge
 [stars-url]: https://github.com/Jeru2023/ai_twins/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/Jeru2023/ai_twins.svg?style=for-the-badge
 [issues-url]: https://github.com/Jeru2023/ai_twins/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Jeru2023/ai_twins.svg?style=for-the-badge
 [license-url]: https://github.com/Jeru2023/ai_twins/blob/master/LICENSE.txt
