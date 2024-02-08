@@ -114,8 +114,11 @@ git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
 
 For high quality wav2lip, I also cloned two submodules from Wav2Lip-GFPGAN
 ```sh  
-git submodule add git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git Wav2Lip-master && mv Wav2Lip-master Wav2Lip
-git submodule add git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git GFPGAN-master && mv GFPGAN-master GFPGAN
+git submodule add git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git Wav2Lip-GFPGAN
+ln -s Wav2Lip-GFPGAN/Wav2Lip-master ./Wav2Lip
+ln -s Wav2Lip-GFPGAN/GFPGAN-master ./GFPGAN
+git add Wav2Lip
+git add GFPGAN
 ```
 
 ### Prerequisites
