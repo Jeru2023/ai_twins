@@ -115,6 +115,7 @@ git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
 1. Install ffmpeg
 
 2. Pretrain Models
+   
 Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj1995/GPT-SoVITS/tree/main) and place them in GPTSoVITS/GPT_SoVITS/pretrained_models
 
 ### Installation
