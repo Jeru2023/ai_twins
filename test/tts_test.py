@@ -7,7 +7,7 @@ import os
 tts_model = TTSModel()
 root_path = utils.get_root_path()
 
-persona_name = PersonaEnum.NORMAL_FEMALE.get_name()
+persona_name = PersonaEnum.ZHONG_LI.get_name()
 text = '今天天气不错呀，我真的太开心了。'
 uuid = utils.generate_unique_id(text)
 
