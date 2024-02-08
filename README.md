@@ -138,6 +138,8 @@ Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj199
    cd ai_twins
    mv config-GPTSoVITS.py GPTSoVITS/config.py
    ```
+5. To run test or WebUI Demo, create three empty folders in output:
+   slice_trunks, tts, upload
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
