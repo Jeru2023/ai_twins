@@ -149,7 +149,7 @@ Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj199
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-### API call
+### Function call
 Please refer to the test files in test folder.
 #### TTS
 ```python
@@ -262,7 +262,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@Jeru_AGI](https://twitter.com/Jeru_AGI) - jeru.token@gmail.com
+Jeru Liu - [@Jeru_AGI](https://twitter.com/Jeru_AGI) - jeru.token@gmail.com
 
 Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023/ai_twins)
 
