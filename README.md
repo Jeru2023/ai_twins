@@ -111,6 +111,13 @@ Please mind I've rename GPT-SoVITS by removing dash, as it's invalid character a
 ```sh  
 git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
 ```
+
+For high quality wav2lip, I also cloned two submodules from Wav2Lip-GFPGAN
+```sh  
+git submodule add git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git Wav2Lip-master && mv Wav2Lip-master Wav2Lip
+git submodule add git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git GFPGAN-master && mv GFPGAN-master GFPGAN
+```
+
 ### Prerequisites
 1. Install ffmpeg
 
@@ -294,3 +301,5 @@ Project Link: [https://github.com/Jeru2023/ai_twins](https://github.com/Jeru2023
 [issues-url]: https://github.com/Jeru2023/ai_twins/issues
 [license-shield]: https://img.shields.io/github/license/Jeru2023/ai_twins.svg?style=for-the-badge
 [license-url]: https://github.com/Jeru2023/ai_twins/blob/master/LICENSE.txt
+
+
