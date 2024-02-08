@@ -82,7 +82,7 @@ Perfect AI Replication
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!--[![ai_twins Screen Shot][product-screenshot]](https://example.com)-->
 
 This project aims to achieve two goals:
 
@@ -111,6 +111,12 @@ Please mind I've rename GPT-SoVITS by removing dash, as it's invalid character a
 ```sh  
 git submodule add git@github.com:RVC-Boss/GPT-SoVITS.git GPTSoVITS
 ```
+### Prerequisites
+1. Install ffmpeg
+
+2. Pretrain Models
+Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj1995/GPT-SoVITS/tree/main) and place them in GPTSoVITS/GPT_SoVITS/pretrained_models
+
 ### Installation
 
 1. Create independent Python Environment.
@@ -241,8 +247,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 <!-- LICENSE -->
 ## License
 
