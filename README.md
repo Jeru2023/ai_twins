@@ -144,7 +144,7 @@ Download pretrained models from [GPT-SoVITS Models](https://huggingface.co/lj199
 4. Overwrite config.py under GPTSoVITS
    ```sh
    cd ai_twins
-   mv config-GPTSoVITS.py GPTSoVITS/config.py
+   cp config-GPTSoVITS.py GPTSoVITS/config.py
    ```
 5. To run test or WebUI Demo, create three empty folders in output:
    slice_trunks, tts, upload
