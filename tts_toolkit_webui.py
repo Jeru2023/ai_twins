@@ -1,6 +1,6 @@
 import gradio as gr
 import utils
-from infer. tts_model import TTSModel
+from infer.tts_model import TTSModel
 import os
 from infer.persona_enum import PersonaEnum
 
@@ -16,8 +16,10 @@ description = "Text to speech with zero shot TTS model."
 def tts(persona_name, text, text_language, out_path):
     uuid = utils.generate_unique_id(text)
     output_path = os.path.join(root_path, 'output', 'tts', f'{uuid}.wav')
+    print(output_path)
     tts_model.inference(persona_name, text, text_language, output_path)
-    return gr.Audio(output_path)
+    #return gr.Audio(output_path)
+    return output_path
 
 
 with gr.Blocks() as demo:
