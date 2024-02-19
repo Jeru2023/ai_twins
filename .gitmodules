@@ -1,6 +1,3 @@
 [submodule "GPTSoVITS"]
 	path = GPTSoVITS
 	url = git@github.com:RVC-Boss/GPT-SoVITS.git
-[submodule "Wav2Lip-GFPGAN"]
-	path = Wav2Lip-GFPGAN
-	url = git@github.com:ajay-sainy/Wav2Lip-GFPGAN.git
